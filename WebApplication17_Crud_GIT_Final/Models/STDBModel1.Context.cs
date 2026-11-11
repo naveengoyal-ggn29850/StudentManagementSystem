@@ -26,5 +26,6 @@ namespace WebApplication17_Crud_GIT_Final.Models
         }
     
         public virtual DbSet<student> students { get; set; }
+        public virtual DbSet<teacher> teachers { get; set; }
     }
 }
