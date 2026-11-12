@@ -99,6 +99,7 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="Database\stu_db.sql" />
     <Content Include="Global.asax" />
     <Content Include="Models\STDBModel1.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
@@ -114,6 +115,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\studentsController.cs" />
     <Compile Include="Controllers\teachersController.cs" />
     <Compile Include="Global.asax.cs">
@@ -173,6 +175,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Login\" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
